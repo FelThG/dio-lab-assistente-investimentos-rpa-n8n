@@ -1,6 +1,7 @@
-# Assistente de investimentos com Python, n8n e Gemini 
+# DIO BootCamp Santander 2026
 
-# A entrega acabou ficando divertida devido divergências com a IA. Boa leitura!
+A entrega ficou divertida devido divergências com a IA.
+Boa leitura!
 
 Projeto desenvolvido para o DIO - Santander Bootcamp 2026, a partir do desafio de integrar extração de dados com Python, processamento no n8n e geração de mensagens sobre investimentos.
 
