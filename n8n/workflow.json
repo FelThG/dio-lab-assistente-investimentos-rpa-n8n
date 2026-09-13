@@ -14,8 +14,8 @@
       "type": "n8n-nodes-base.webhook",
       "typeVersion": 2.1,
       "position": [
-        -64,
-        -144
+        -224,
+        -240
       ],
       "id": "13228793-85cc-43eb-a977-deab34b49fbf",
       "name": "Webhook",
@@ -35,8 +35,8 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.5,
       "position": [
-        192,
-        -80
+        32,
+        16
       ],
       "id": "0a9915bc-c405-4b97-b1bc-507c0f587267",
       "name": "HTTP Request"
@@ -71,8 +71,8 @@
       "type": "n8n-nodes-base.merge",
       "typeVersion": 3.2,
       "position": [
-        720,
-        -128
+        896,
+        -144
       ],
       "id": "007a1dd6-33fd-476d-90a1-91a59b4f1fc6",
       "name": "Merge"
@@ -87,8 +87,8 @@
       "type": "n8n-nodes-base.splitOut",
       "typeVersion": 1,
       "position": [
-        288,
-        -224
+        384,
+        -240
       ],
       "id": "bdf9e19a-9f04-4ef9-93c9-1bd5c092ef19",
       "name": "Split Out"
@@ -100,8 +100,8 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        928,
-        -128
+        1376,
+        -144
       ],
       "id": "dd00dc7b-84ee-4d3e-9baa-b5bd0b4564d5",
       "name": "Code in JavaScript"
@@ -127,8 +127,8 @@
       "type": "@n8n/n8n-nodes-langchain.googleGemini",
       "typeVersion": 1.2,
       "position": [
-        1120,
-        -128
+        1808,
+        -144
       ],
       "id": "dfb59b6f-5b4e-48e9-8ac0-e201a5b110b5",
       "name": "Message a model1",
@@ -162,8 +162,8 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.5,
       "position": [
-        1472,
-        -128
+        2240,
+        -144
       ],
       "id": "2e9e6a79-6f83-4dbd-89ff-158d7affffeb",
       "name": "Edit Fields"
@@ -178,12 +178,124 @@
       "type": "n8n-nodes-base.gmail",
       "typeVersion": 2.2,
       "position": [
-        1696,
-        -128
+        2464,
+        -144
       ],
       "id": "83d5025f-e0b1-497b-acb4-3e8872a95af3",
       "name": "Send a message",
       "webhookId": "d81847c3-26e8-4fda-8036-76d28174c0b2"
+    },
+    {
+      "parameters": {
+        "content": "## Reduzi para este node o Respond Webhook usado no projeto original. \n** Usando o HTTP 200 do próprio webhook. E fazendo a ingestão de dados que serão usados.",
+        "height": 256,
+        "width": 384,
+        "color": 6
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -496,
+        -368
+      ],
+      "id": "83b0f0a6-f4d0-4d3a-aee6-b721db2a7aaf",
+      "name": "Sticky Note"
+    },
+    {
+      "parameters": {
+        "content": "\n\n\n\n\n\n\n## Nossa segunda fonte de dados acionada pelo gatilho inicial.\n",
+        "height": 256,
+        "width": 384,
+        "color": 6
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -208,
+        0
+      ],
+      "id": "2ec3bf8a-0f62-4a87-8e2d-52a2fc44aa1d",
+      "name": "Sticky Note1"
+    },
+    {
+      "parameters": {
+        "content": "## Tratamento dos dados para melhor manipulação",
+        "height": 640,
+        "width": 384,
+        "color": 6
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        240,
+        -448
+      ],
+      "id": "9a029502-9fa5-4a11-b05f-034983a435b4",
+      "name": "Sticky Note2"
+    },
+    {
+      "parameters": {
+        "content": "## Aproveitamos o Merge dos dados para concatena-los",
+        "height": 384,
+        "width": 352,
+        "color": 6
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        768,
+        -288
+      ],
+      "id": "4a2a9629-7c06-4757-9a5c-2504cacc0290",
+      "name": "Sticky Note3"
+    },
+    {
+      "parameters": {
+        "content": "## Aplicamos a \"regra de negócio\"para nossa lógica.\n\n** Também omitimos dados não pertinentes a próxima etapa.\n\n** Ligeiro ajuste em formatação para o output",
+        "height": 384,
+        "width": 352,
+        "color": 6
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        1248,
+        -336
+      ],
+      "id": "cd4832df-9c29-4888-90a0-1395c4cf6b63",
+      "name": "Sticky Note4"
+    },
+    {
+      "parameters": {
+        "content": "## Personalidade e rápidas orientações de estrutura e quais dados usar na mensagem final.",
+        "height": 384,
+        "width": 352,
+        "color": 6
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        1744,
+        -336
+      ],
+      "id": "40b5aedc-11aa-4ff4-8265-c953d60ec487",
+      "name": "Sticky Note5"
+    },
+    {
+      "parameters": {
+        "content": "## Ajuste para entregar os dados ao gmail no caso.\n\n** Como é uma prova de conceito, aqui não foi aplicado nenhum tipo de fila, debounce ou resiliência.",
+        "height": 384,
+        "width": 560,
+        "color": 6
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        2176,
+        -304
+      ],
+      "id": "48e0e9e7-f5ae-4fbf-ba6f-f903258947c0",
+      "name": "Sticky Note6"
     }
   ],
   "pinData": {},
@@ -287,7 +399,7 @@
     "executionOrder": "v1",
     "binaryMode": "separate"
   },
-  "versionId": "1d471788-35d0-43d4-896f-c7ea0ce7135d",
+  "versionId": "2ba5af5a-5c0c-4838-97cf-3b993c1ab2f9",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "93058ac51a5d40e3ccd616f14bc3f9f3b97c55d52397ad0b7f02a23f9032647c"
